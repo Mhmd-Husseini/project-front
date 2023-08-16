@@ -34,7 +34,7 @@ const ModalForm = ({ user, handleCloseModal, OpenModal, onUpdate, isAdding }) =>
   return (
     <div>
       <Modal isOpen={OpenModal} className="modal">
-        <div className="container">
+        <div className="a-container">
           {isAdding ? ( <h2>Add User</h2>) : ( <h2>Update User: {user.id}</h2>)}
           <label>ID</label>
           <input type="text" disabled className="input-field" value={data.id || ""}  />
