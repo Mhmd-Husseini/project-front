@@ -1,0 +1,11 @@
+.heroo {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #FFEB85;
+    font-size: 32px;
+}
+
+.course-name {
+    padding-left: 20px;
+}

@@ -1,0 +1,49 @@
+.TableContainer {
+  width: 100%;
+  overflow: auto;
+}
+
+.Table {
+  width: 100%;
+}
+
+.TableHeader {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 16px;
+}
+
+.TableRow {
+  &:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+}
+
+.TableCell {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.ActionsCell {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+}
+
+.ActionsCell button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  color: #fff;
+  padding: 0rem 0.7rem;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.ActionsCell button:hover {
+  background-color: #555;
+}

@@ -1,0 +1,48 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border: #D8E2DC 2px solid;
+    background-color: #FFFAFA;
+    padding: 24px;
+    cursor: pointer;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border: #D8E2DC 2px solid;
+    background-color: #FFFAFA;
+    padding: 24px;
+    cursor: pointer;
+}
+
+.course-title {
+    font-size: 30px;
+    align-self: center;
+}
+
+.course-title2 {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    width: 100%;
+    font-size: 30px;
+    border-bottom: 1px solid #b6b8b7 ;
+}
+
+.class-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}

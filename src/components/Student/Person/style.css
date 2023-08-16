@@ -1,0 +1,22 @@
+.person-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #333;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid #333;
+}
+
+.chat-icon {
+    color: #333;
+    cursor: pointer;
+}
+
+.chat-icon:hover{
+    color: rgb(0, 123, 255);
+}
+
+.title {
+    font-size: 30px;
+}

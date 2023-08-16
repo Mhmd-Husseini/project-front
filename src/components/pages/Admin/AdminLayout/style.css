@@ -1,0 +1,10 @@
+.admin-layout {
+    display: flex;
+  }
+  
+.content-admin {
+    flex: 6;
+    margin-top: 115px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+  }
