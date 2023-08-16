@@ -35,6 +35,7 @@ const StudentClasses = () => {
       setCategories(response.categories);
 
     } catch (error) {
+      console.log(error)
     }
   };
 

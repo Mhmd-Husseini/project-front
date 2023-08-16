@@ -58,7 +58,7 @@ const StudentSubmission = () => {
 
   return (
     < div className='submission-container' >
-      <div className="submission-wrapper">
+      <div className="submission-content">
         <div className='submission-instructions'>
           <span className='title-large'>{task.title}</span>
           <p>

@@ -3,11 +3,11 @@ import './style.css'
 import { useNavigate } from 'react-router-dom'
 
 
-const ClassworkListItem = ({course_id, item }) => {
+const ClassworkListItem = ({course_id, item, type}) => {
 
     const navigate = useNavigate()
 
-    const navigateToTask = () => navigate(`/Student/Submission/${course_id}/${item.type}/${item.id}`)
+    const navigateToTask = () => navigate(`/Student/Submission/${course_id}/${type}/${item.id}`)
 
     return (
         <div className='list-item' onClick={navigateToTask}>
