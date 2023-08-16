@@ -54,8 +54,8 @@ const Classwork = () => {
 
   return (
       <div className='classwork'>
-        <div className='nav'><Navbar one={'teacher/Classwork'} two={'teacher/Enrollments'}/></div>
-        <div className='body_classwork'>
+        <div className='t-nav'><Navbar one={'teacher/Classwork'} two={'teacher/Enrollments'}/></div>
+        <div className='t_body_classwork'>
           <div className='course_head'>
             <div><h1>{name}</h1></div>
             <div>
