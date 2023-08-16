@@ -1,0 +1,70 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    list-style: none;
+} */
+
+.t-nav{
+    top: -50px;
+}
+
+.submission-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.submission-wrapper {
+    width: 100%;
+    
+    padding-bottom: 20px;
+}
+
+.title-large {
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 20px;
+    
+}
+
+.t-body{
+    padding: 0 10%;
+    text-align: left;
+    width: 100%;
+}
+
+.t-body span, .t-body p{
+    width: 100%;
+}
+
+.t-submission-instructions p {
+    margin-top: 10px;
+}
+
+.t-bottom {
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+    padding-bottom: 40px;
+}
+
+.t-btn {
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+    min-width: 100px;
+}
+
+.t-btn + .t-btn {
+    margin-left: 10px;
+}

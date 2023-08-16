@@ -1,0 +1,16 @@
+.t-student-attendance {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.t-student-attendance .t-name {
+    flex: 1;
+}
+
+.t-student-attendance input {
+    width: 20px;
+    height: 20px;
+}

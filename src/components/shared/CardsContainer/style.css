@@ -1,0 +1,16 @@
+.t-course-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.t-course-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 100%;
+  justify-content: space-between;
+  padding: 24px;
+  gap: 10px;
+}

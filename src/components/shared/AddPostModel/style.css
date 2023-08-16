@@ -1,0 +1,140 @@
+/* .post_modal {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 123, 255);
+    border-radius: 20px;
+  }
+   */
+   .post_head {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .post_head .exit {
+    font-size: 35px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .post_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    gap: 10px;
+  }
+  
+  .post_form label {
+    font-size: 16px;
+    font-weight: 600;
+    width: 70%;
+    align-items: flex-start;
+  }
+  
+  .post_form input[type="text"],
+  .post_form textarea,
+  .post_form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    min-width: 400px;
+  }
+  
+  .post_form select {
+    appearance: none;
+    background-color: #fff;
+  }
+  
+  .post_form input[type="file"] {
+    display: block;
+  }
+  
+  .post_form .file_input_label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .post_form .file_input_label span {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .post_form button[type="submit"] {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  
+  .post_form .btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+ 
+  .post_modal {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 123, 255);
+    border-radius: 20px;
+    overflow: auto;
+}
+  
+.post_modal .btn{
+    background-color: transparent;
+    margin-bottom: 10px;    
+}
+
+  .post_head {
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .input_div{
+    height: auto;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .post_modal {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 123, 255);
+    border-radius: 20px;
+    overflow: auto;
+  }
+  
+.post_modal .btn{
+  color: black;
+    background-color: transparent;
+    margin-bottom: 10px;    
+}

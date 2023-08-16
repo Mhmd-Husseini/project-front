@@ -1,0 +1,7 @@
+.courses_body nav .one,.courses_body nav .two{
+    display: none;
+}
+
+.nav{
+    width: 100%;
+}

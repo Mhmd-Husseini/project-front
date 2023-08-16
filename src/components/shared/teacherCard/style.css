@@ -1,0 +1,12 @@
+
+.t-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border: #D8E2DC 2px solid;
+    background-color: #FFFAFA;
+    padding: 24px;
+}

@@ -1,0 +1,83 @@
+.attend_modal {
+  width: 600px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0, 123, 255);
+  border-radius: 20px;
+  overflow: auto;
+}
+
+.attend_modal::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.attend_modal .btn{
+  background-color: transparent;
+  margin-bottom: 10px;    
+}
+
+.attend_head {
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.attend_content {
+  height: 80%; 
+  overflow-y: scroll;
+}
+
+.attend_head .exit {
+  font-size: 35px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+.chat-Attend-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: #e7e6dd;
+  overflow: hidden;
+}
+
+
+/* .message-input{
+  width: 99%;
+  background-color: #faeca7;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  height: 60px;
+  color: #333;
+  padding: 10px;
+  font-size: 14px;
+} */
+
+/* .filler {
+  width: 100%;
+  background-color: #faeca7;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.send-icon {
+  cursor: pointer;
+  padding: 20px;
+  color: #333;
+}
+
+.close-modal {
+  cursor: pointer;
+  background-color: rgb(0, 123, 255);
+} */

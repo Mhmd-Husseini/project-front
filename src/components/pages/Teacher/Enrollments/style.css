@@ -1,0 +1,43 @@
+.body_enroll{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.body_enroll .title{
+    padding: 0 10%;
+    margin-top: 30px;
+}
+.body_enroll .studnets{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+}
+
+.body_enroll .studnets span{
+    text-align: left;
+}
+
+.enroll_head{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    max-width: 1800px;
+}
+
+.enroll_head button{
+    background-color: #333;
+    color: white;
+    padding: 7px 10px;
+    min-width: 80px;
+    margin-left: 5px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.enroll_head button a{
+    color: white;
+}
