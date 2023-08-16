@@ -58,7 +58,7 @@ const ViewSolutions = () => {
   };
 
   return (
-    <div>
+    <div className='solution_container'>
       <div className='solution_head'>
         <h1>View Solutions</h1>
         <Link to={'/teacher/PostDetails'}><button>Back</button></Link>
@@ -70,7 +70,7 @@ const ViewSolutions = () => {
               <th>Student Name</th>
               <th>Solution</th>
               <th>Grade</th>
-              <th></th>
+              <th>Add</th>
             </tr>
           </thead>
           <tbody>
