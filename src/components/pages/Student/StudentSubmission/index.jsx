@@ -11,6 +11,7 @@ const StudentSubmission = () => {
 
   const [task, setTask] = useState([]);
   const [file, setFile] = useState([])
+  const [grade, setGrade] = useState();
   
 
   const handleFileChange = (event) => {
@@ -20,6 +21,7 @@ const StudentSubmission = () => {
 
   useEffect(() => {
     fetchTask();
+    fetchGrade();
   }, []);
 
   const fetchTask = async () => {
@@ -27,7 +29,19 @@ const StudentSubmission = () => {
       const response = await sendRequest({ method: 'GET', route: `getOneTask/${type}/${item_id}`, body: "", });
       setTask(response.task);
 
+      console.log(task)
+
     } catch (error) {
+    }
+  };
+
+  const fetchGrade = async () => {
+    try {
+      const response = await sendRequest({ method: 'GET', route: `getGrade/${course_id}/${type}/${item_id}`, body: "", });
+      setGrade(response);
+
+    } catch (error) {
+      console.log(error)
     }
   };
 
@@ -64,6 +78,7 @@ const StudentSubmission = () => {
           <p>
             {task.description}
           </p>
+          {grade? <div className='student-grade'>Grade: {grade.grade}</div> : <div className='student-grade'>Not corrected yet</div>}
         </div>
         <div className='submission-upload'>
           <span className='title-medium'>Submit Work</span>

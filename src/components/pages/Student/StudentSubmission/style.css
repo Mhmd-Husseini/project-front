@@ -70,4 +70,7 @@ input[type=file] {
     background: #3f3e3e;
   }
 
+  .student-grade {
+    color: rgb(0, 123, 255);
+  }
 
