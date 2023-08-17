@@ -1,8 +1,12 @@
-nav .one,nav .two{
+.t-one,.t-two{
     display: block;
 }
 
-nav{
+.t-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
 }
 
@@ -15,11 +19,12 @@ nav{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
-.body_classwork{
+.t_body_classwork{
     width: 100%;
-    padding: 0 10%;
+    padding: 0 20%;
 
 }
 
@@ -31,10 +36,11 @@ nav{
     align-items: center;
     padding: 20px 0px;
     max-width: 1800px;
+    color: #333;
 }
 
 .course_head button{
-    background-color: rgb(0, 123, 255);
+    background-color: #333;
     color: white;
     padding: 7px 10px;
     margin-left: 5px;
@@ -57,10 +63,12 @@ nav{
 
 .postsTitle{
     border-bottom: 1px solid #333;
+    color: #333;
 }
 
 .post_body{
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    width: 100%;
 }
 
 .content{margin: 0;}

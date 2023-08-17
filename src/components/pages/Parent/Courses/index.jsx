@@ -11,7 +11,7 @@ const Courses = () => {
       async function fetchChildCourses() {
         axios.defaults.headers.authorization =  `Bearer ${localStorage.getItem("token")}` ;
         try {
-          const response = await axios.get(`http://127.0.0.1:8000/api/parent/child/report/${childId}`);
+          const response = await axios.get(`http://127.0.0.1:8000/api/parent/child/courses/${childId}`);
           setCourses(response.data.data);
         } catch (error) {
           console.error('Error fetching courses:', error);

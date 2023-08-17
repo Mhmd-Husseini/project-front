@@ -1,4 +1,4 @@
-.container{
+.c-container{
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -7,10 +7,12 @@
     padding-left: 10%;
     padding-right: 10%;
 }
+
 .cards_container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 5%;
-    padding: 10%;
+    padding: 5%;
 }
+

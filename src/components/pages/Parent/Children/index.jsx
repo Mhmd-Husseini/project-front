@@ -29,7 +29,7 @@ const Children = () => {
     
     <div className="body">
       
-      <div className='container'>
+      <div className='c-container'>
         <h2>Your Children</h2>
         <div className="cards_container">
           {childrenData.map(child => (

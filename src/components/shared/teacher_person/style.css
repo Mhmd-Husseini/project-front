@@ -1,20 +1,21 @@
 .t-body {
     display: flex;
-    max-width: 1920px;
+    max-width: 1220px;
     flex-direction: column; /* Display items in a column */
-    align-items: center; /* Center items horizontally */
+    align-items: flex-start; /* Center items horizontally */
     justify-content: flex-start; /* Center items vertically */
     overflow-x: hidden;
+    padding: 0;
 }
   
 .t-person-item {
     display: flex;
     flex-direction: row;
     align-items: flex-start; 
-    justify-content: space-between;
+    justify-content: center;
     color: #333;
     /* width: 100%; */
-    width: 1200px;
+    width: 100%;
     padding: 20px;
     border-bottom: 1px solid #333;
     text-align: center; 
@@ -29,4 +30,8 @@
     border: none;
 }
 
-.t-icons{cursor: pointer;}
+.t-icons{
+    text-align: left;
+    cursor: pointer;
+    color: #333;
+}

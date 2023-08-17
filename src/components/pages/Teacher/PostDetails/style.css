@@ -6,9 +6,16 @@
     top: 0;
     list-style: none;
 } */
+#root{
+    top: 0;
+}
 
 .t-nav{
-    top: -50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1550px;
 }
 
 .submission-container {
@@ -17,12 +24,17 @@
     align-items: center;
     justify-content: space-between;
     height: 100vh;
+    top: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 0;
 }
 
 .submission-wrapper {
     width: 100%;
-    
     padding-bottom: 20px;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .title-large {
@@ -44,6 +56,7 @@
 
 .t-submission-instructions p {
     margin-top: 10px;
+    border: none;
 }
 
 .t-bottom {
@@ -54,11 +67,12 @@
     align-items: flex-start;
     background-color: white;
     padding-bottom: 40px;
+    max-width: 1350px;
 }
 
 .t-btn {
     color: white;
-    background-color: #333;
+    background-color: rgb(0,123,255);
     padding: 10px;
     text-align: center;
     height: 50px;

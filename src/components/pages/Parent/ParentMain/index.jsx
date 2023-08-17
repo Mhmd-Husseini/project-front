@@ -12,7 +12,7 @@ const ParentMain = () => {
         <Routes>
             <Route index element={<Children />} />
             <Route path="childCourses/:childId" element={<Courses />} />
-            <Route path="childCourses/:childId/:CourseId" element={<CourseReport />} />
+            <Route path="childCourses/:childId/:courseId" element={<CourseReport />} />
         </Routes>
     </div>
     );
