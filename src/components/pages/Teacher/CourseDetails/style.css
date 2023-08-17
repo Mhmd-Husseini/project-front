@@ -1,3 +1,11 @@
-.one, .two{
+.t-one, .t-two{
     display: block;
+}
+
+.t-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1500px;
 }

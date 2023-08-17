@@ -1,3 +1,7 @@
+.solution_container{
+    width: 1250px;
+}
+
 .page-container {
     padding: 20px;
   }
@@ -38,6 +42,11 @@
     background-color: #f2f2f2;
 }
 
+tr{
+    display: flex;
+    align-items: baseline;
+}
+
   
 input[type="number"] {
     width: 60px;
@@ -58,6 +67,7 @@ input[type="number"] {
 .file_link{
     width: 100%;
     text-align: center;
-    padding: 10px 10%;
     text-align: left;
+    color: #333;
+    margin-left: 100px;
 }
